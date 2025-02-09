@@ -1,14 +1,14 @@
 [
   {
-    "remote": "TeamWin",
+    "remote": "SingkoLab",
     "repository": "android_device_xiaomi_sm8250-common",
     "target_path": "device/xiaomi/sm8250-common",
     "branch": "android-11"
   },
   {
     "remote": "github",
-    "repository": "nebrassy/android_kernel_xiaomi_alioth",
-    "target_path": "kernel/xiaomi/alioth",
+    "repository": "SingkoLab/android_kernel_xiaomi_stone",
+    "target_path": "kernel/xiaomi/miholi",
     "branch": "android-11"
   }
 ]

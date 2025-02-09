@@ -7,15 +7,15 @@
 BOARD_BOOT_HEADER_VERSION := 3
 
 # Inherit from sm8250-common
-$(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
-#$(call inherit-product, vendor/xiaomi/alioth/alioth-vendor.mk)
+$(call inherit-product, device/xiaomi/sm6375-common/holi.mk)
+#$(call inherit-product, vendor/xiaomi/miholi/miholi-vendor.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 #Audio
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/xiaomi/alioth/audio,$(TARGET_COPY_OUT_VENDOR)/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/xiaomi/miholi/audio,$(TARGET_COPY_OUT_VENDOR)/etc)
 
 # Device-specific settings
 PRODUCT_PACKAGES += \
@@ -90,5 +90,5 @@ RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SYSTEM_EXT_SHARED_LIBRARIES)/libdisplayconfig.qti.so
 
 PRODUCT_COPY_FILES += \
-    $(OUT_DIR)/target/product/alioth/obj/SHARED_LIBRARIES/libandroidicu_intermediates/libandroidicu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libandroidicu.so
+    $(OUT_DIR)/target/product/miholi/obj/SHARED_LIBRARIES/libandroidicu_intermediates/libandroidicu.so:$(TARGET_COPY_OUT_RECOVERY)/root/system/lib64/libandroidicu.so
 
