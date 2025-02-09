@@ -79,6 +79,8 @@ TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
+TW_FRAMERATE := 120
+TW_LOAD_VENDOR_MODULES := "adsp_loader_dlkm.ko"
 
 # Vibrator
 TW_SUPPORT_INPUT_AIDL_HAPTICS := true
