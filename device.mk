@@ -7,7 +7,7 @@
 BOARD_BOOT_HEADER_VERSION := 3
 
 # Inherit from sm8250-common
-$(call inherit-product, device/xiaomi/sm6375-common/holi.mk)
+$(call inherit-product, device/xiaomi/sm8250-common/holi.mk)
 #$(call inherit-product, vendor/xiaomi/miholi/miholi-vendor.mk)
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
