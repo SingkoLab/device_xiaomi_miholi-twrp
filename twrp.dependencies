@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "repository": "SingkoLab/android_kernel_xiaomi_stone",
+    "repository": "SingkoLab/kernel_xiaomi_stone",
     "target_path": "kernel/xiaomi/miholi",
     "branch": "android-11"
   }

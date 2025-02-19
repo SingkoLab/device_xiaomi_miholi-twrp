@@ -18,7 +18,7 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/miholi
-TARGET_KERNEL_CONFIG := vendor/stone_defconfig
+TARGET_KERNEL_CONFIG := stone_defconfig
 
 #Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
