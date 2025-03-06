@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_spes.mk
+    $(LOCAL_DIR)/twrp_miholi.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_spes-eng
+    twrp_miholi-eng

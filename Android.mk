@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),spes)
+ifeq ($(TARGET_DEVICE),miholi,stone,moonstone,sunstone,veux,peux)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif

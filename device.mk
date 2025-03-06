@@ -28,7 +28,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
 # Device Path
-LOCAL_PATH := device/xiaomi/spes
+LOCAL_PATH := device/xiaomi/miholi
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
