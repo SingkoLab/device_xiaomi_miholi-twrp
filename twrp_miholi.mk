@@ -19,14 +19,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from spes device
-$(call inherit-product, device/xiaomi/spes/device.mk)
+$(call inherit-product, device/xiaomi/miholi/device.mk)
 
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := spes
-PRODUCT_NAME := twrp_spes
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi Note 11
+PRODUCT_DEVICE := miholi
+PRODUCT_NAME := twrp_miholi
+PRODUCT_BRAND := Xiaomi
+PRODUCT_MODEL := SM6375
 PRODUCT_MANUFACTURER := xiaomi
