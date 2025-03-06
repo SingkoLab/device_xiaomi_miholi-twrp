@@ -18,7 +18,7 @@
 # 	Please maintain this if you use this script or any part of it
 #
 
-FDEVICE="spes"
+FDEVICE="miholi"
 #set -o xtrace
 
 fox_get_target_device() {
@@ -39,8 +39,8 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
    	export TW_DEFAULT_LANGUAGE="en"
 	export LC_ALL="C"
  	export ALLOW_MISSING_DEPENDENCIES=true
-	export TARGET_DEVICE_ALT="spes,spesn"
-	export OF_TARGET_DEVICES="spes,spesn"
+	export TARGET_DEVICE_ALT="miholi,sunstone,moonstone,stone"
+	export OF_TARGET_DEVICES="miholi,sunstone,moonstone,stone"
 	export OF_VIRTUAL_AB_DEVICE=1
 	export OF_AB_DEVICE=1
 	export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
@@ -84,7 +84,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	
 	# R11.1 Settings
 	export FOX_VERSION="R11.1"
-	export OF_MAINTAINER="Sushrut1101"
+	export OF_MAINTAINER="Kristoforusapm"
 
 	# let's see what are our build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
