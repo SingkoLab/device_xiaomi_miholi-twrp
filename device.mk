@@ -84,14 +84,11 @@ RECOVERY_BINARY_SOURCE_FILES += \
 
 # Additional Libraries
 TARGET_RECOVERY_DEVICE_MODULES += \
+    libdisplayconfig.qti \
     libion \
-    libandroidicu \
     vendor.display.config@1.0 \
     vendor.display.config@2.0 \
-    libdisplayconfig.qti \
-    vendor.qti.hardware.vibrator.service \
-    vendor.qti.hardware.vibrator.impl \
-    libqtivibratoreffect
+    libdisplayconfig.qti 
 
 RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
